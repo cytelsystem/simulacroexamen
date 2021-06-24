@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
-
-:root {
+<<<<<<< HEAD :root {
   --fon1: "Roboto", sans-serif;
   --negro1: #222222;
   --rojo1: #f51706;
@@ -17,7 +16,7 @@ body {
 }
 
 /* *********************HEADER***************************** */
-.Contenedorheader {
+<<<<<<< HEAD .Contenedorheader {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -58,6 +57,68 @@ h1 {
 .Contenedorheader li a {
   color: var(--white2);
   text-decoration: auto;
+}
+
+********************************MAIN*******************************
+  .sectionmain1 {
+  display: flex;
+  width: 1024px;
+  padding: 15px;
+  gap: 15px;
+}
+
+.maindiv1 {
+  background-color: wheat;
+  background-image: url(../img/delivery.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 490px;
+  height: 350px;
+  border-radius: 5px;
+}
+
+.maindiv1 h2 {
+  color: var(--rojo2);
+  margin: 20px;
+}
+.maindiv1 span {
+  color: var(--white2);
+}
+
+/* ************************************ */
+.maindiv2 {
+  background-color: var(--white1);
+  width: 491px;
+  height: 350px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.maindiv2 h2 {
+  color: var(--rojo2);
+  font-family: Roboto;
+  font-size: 24px;
+}
+
+.maindivcont2 {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+}
+
+.maindivcont2 h2 {
+  margin-top: 0;
+  font-family: var(--fon1);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--negro1);
+}
+.maindivcont2 ol {
+  margin-bottom: 70px;
 }
 
 /* *********************FOOTER********************************** */
