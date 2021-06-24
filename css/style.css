@@ -16,12 +16,12 @@ body {
   background: #e5e5e5;
 }
 
+/* *********************HEADER***************************** */
 .Contenedorheader {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #222222;
-  position: absolute;
   width: 1024px;
   height: 100px;
   padding: 15px;
@@ -48,14 +48,55 @@ h1 {
 }
 /* **************************************** */
 
-ul {
+.Contenedorheader ul {
   list-style-type: none;
   display: flex;
   justify-content: center;
   gap: 10px;
 }
 
-li a {
+.Contenedorheader li a {
   color: var(--white2);
   text-decoration: auto;
+}
+
+/* *********************FOOTER********************************** */
+
+.footercontainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--negro1);
+  width: 1024px;
+  padding: 15px;
+}
+
+.footercontainer ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.footercontainer li a {
+  color: var(--white2);
+  text-decoration: auto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+/* **************************************** */
+
+.footerdiv2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.footerdiv2 h2 {
+  color: var(--white1);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
 }
