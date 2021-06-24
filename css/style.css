@@ -1,1 +1,61 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+:root {
+  --fon1: "Roboto", sans-serif;
+  --negro1: #222222;
+  --rojo1: #f51706;
+  --rojo2: #fc200c;
+  --verde1: #4caf50;
+  --white1: #ffffff;
+  --white2: #f3f3f3;
+}
+
+body {
+  margin: 0 auto;
+  font-family: var(--fon1);
+  background: #e5e5e5;
+}
+
+.Contenedorheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #222222;
+  position: absolute;
+  width: 1024px;
+  height: 100px;
+  padding: 15px;
+}
+
+.headerdiv1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+h1 {
+  color: var(--white1);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.Spanlogo1 {
+  color: var(--verde1);
+}
+.Spanlogo2 {
+  color: var(--rojo1);
+}
+/* **************************************** */
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+li a {
+  color: var(--white2);
+  text-decoration: auto;
+}
