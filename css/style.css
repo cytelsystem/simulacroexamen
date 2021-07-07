@@ -2,14 +2,13 @@
 :root {
   --maxw: 1024px;
   --fon1: "Roboto", sans-serif;
-  --negro1: #000000;
-  --negro2: #333333;
-  --azul1: #00669f;
-  --white1: #fff9f9;
-  --white2: #f3f3f3;
-  --white3: #ffffff;
-  --verde: #1cd1b0;
-  --whiteoscuro: #e5e5e5;
+  --ColorPrimario: #000000;
+  --ColorSecundario: #333333;
+  --ColorTerceario: #00669f;
+  --ColorCuaternario: #fff9f9;
+  --ColorQuinario: #f3f3f3;
+  --ColorSextario: #ffffff;
+  --ColorSeptimoario: #1cd1b0;
   --backgroundImg: rgb(236, 221, 221);
   --Pshadow1: 0px 10px 7px rgb(0 0 0 / 25%);
   --Pshadow2: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -35,4 +34,11 @@ li {
 
 a {
   text-decoration: none;
+}
+
+fieldset {
+  border: 0;
+  padding: 0.01em 0 0 0;
+  margin: 0;
+  min-width: 0;
 }
