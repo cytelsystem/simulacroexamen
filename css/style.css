@@ -1,14 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 :root {
-  --maxw: 1024px;
+  --maxw: 1440px;
   --fon1: "Roboto", sans-serif;
-  --ColorPrimario: #000000;
-  --ColorSecundario: #333333;
-  --ColorTerceario: #00669f;
-  --ColorCuaternario: #fff9f9;
-  --ColorQuinario: #f3f3f3;
-  --ColorSextario: #ffffff;
-  --ColorSeptimoario: #1cd1b0;
+  --ColorPrimario: #00669f;
+  --ColorSecundario: #1cd1b0;
+  --ColorTerceario: #000000;
+  --ColorQuaternario: #001d2d;
+  --ColorQuinario: #333333;
+  --ColorSextario: #222222;
+  --ColorSeptimoario: #2c0187;
+  --ColorOctarioario: #888888;
+  --ColorNovenoario: #ffffff;
+  --ColorDecimoario: #f3f3f3;
+  --ColorOnceario: #fff9f9;
   --backgroundImg: rgb(236, 221, 221);
   --Pshadow1: 0px 10px 7px rgb(0 0 0 / 25%);
   --Pshadow2: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -41,4 +45,11 @@ fieldset {
   padding: 0.01em 0 0 0;
   margin: 0;
   min-width: 0;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
 }
