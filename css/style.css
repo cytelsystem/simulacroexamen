@@ -1,18 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 :root {
-  --maxw: 1440px;
+  --maxw: 1024px;
   --fon1: "Roboto", sans-serif;
-  --ColorPrimario: #00669f;
-  --ColorSecundario: #1cd1b0;
-  --ColorTerceario: #000000;
-  --ColorQuaternario: #001d2d;
-  --ColorQuinario: #333333;
-  --ColorSextario: #222222;
-  --ColorSeptimoario: #2c0187;
-  --ColorOctarioario: #888888;
-  --ColorNovenoario: #ffffff;
-  --ColorDecimoario: #f3f3f3;
-  --ColorOnceario: #fff9f9;
+  --ColorPrimario: #38454f;
+  --ColorSecundario: #222222;
+  --ColorTerceario: #d01418;
+  --ColorQuaternario: #000000;
+  --ColorQuinario: #f3f3f3;
+  --ColorSextario: #14aed0;
+  --ColorSeptimoario: #1476d0;
+  --ColorOctarioario: #ce0cff;
+  --ColorNovenoario: #c4c4c4;
+  --ColorDecimoario: #619d00;
   --backgroundImg: rgb(236, 221, 221);
   --Pshadow1: 0px 10px 7px rgb(0 0 0 / 25%);
   --Pshadow2: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -53,3 +52,8 @@ textarea:focus,
 button:focus {
   outline: none;
 }
+
+/* ***************HEADER******************** */
+
+/* ***************MAIN******************** */
+/* ***************FOOTER******************** */
